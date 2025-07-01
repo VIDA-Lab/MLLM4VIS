@@ -1,4 +1,4 @@
-# Train VisNLModel
+# Train MiniCPM
 
 ## Environment
 ```bash
@@ -74,7 +74,9 @@ Because the training data for `DataFeat Tasks` and `SimVec Tasks` are different,
         ]
     },
 ```
- 
+
+
+# Train Qwen-VL
 Meanwhile, we also train Qwen-VL with the same data. The training SFT data is sligtly different from the MiniCPM-V SFT data. The data format is as follows:
 ```json
     {
